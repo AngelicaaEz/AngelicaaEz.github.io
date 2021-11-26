@@ -1,0 +1,817 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: 'Quicksand', sans-serif;
+    background: #D4E4F4;
+}
+
+.contenedor{
+    position: absolute;
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.titulo{
+    color: #000;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 80px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #76adde;
+}
+
+/* Header */
+header{
+    width: 100%;
+    height: 100vh;
+    background: #D4E4F4;
+}
+
+.head{
+    width: 100%;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    flex-direction: column;
+}
+.head .marca-p{
+    position: absolute;
+    left: 48%;
+    top: 20%;
+}
+.head .marca-p .texto-marca{
+    position: relative;
+    left: 140px;
+    top: -173px;
+}
+
+.head .marca-p .texto-marca .txt-marca2{
+    position: relative;
+    text-align: center;
+    left: -33%;
+    top: 25px;
+}
+
+.logo_a{
+    width: 160px;
+    position: absolute;
+    /*transform: translateX(-1100px) translateY(-8px);*/
+    top: 40px;
+    left: 110px;
+}
+
+.head .texto-marca h1{
+    font-size: 28px;
+    color: #2a72ba;
+    font-weight: 700;
+}
+
+.head .texto-marca h2{
+    font-size: 30px;
+    color: #2976b9;
+    font-weight: 700;
+}
+
+.head .txt-marca2 h3{
+    font-size: 18px;
+    color: #000000;
+    font-weight: 600;
+}
+
+.head .txt-marca2 h4{
+    font-size: 14px;
+    color: #000000;
+    font-weight: 400;
+}
+
+.menu-navegacion ul li{
+    text-align: right;
+    padding: 50px 120px 0 0;
+}
+.menu-navegacion ul li > a{
+    color: #000;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #76adde;
+    border-radius: 35px;
+    margin-right: 5px;
+    transition: background 0.3s; color: 0.3s;
+    cursor: pointer;
+}
+.menu-navegacion ul li> a:hover{
+    background: #1d6cac;
+}
+/*menu-desplegable*/
+.checkbtn{
+    font-size: 30px;
+    color: #2a72ba;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+/* Quien soy yo */
+.imagen-yop{
+    width: 30%;
+    margin-left: 20%;
+    display: flex;
+}
+
+.parrafo-uno h3{
+    text-align: left;
+    padding-left: 55%;
+    font-size: 35px;
+    margin-top: -300px;
+    display: flex;
+    color: #4591ce;
+}
+
+.texto-p-uno{
+    text-align: left;
+    padding-left: 55%;
+    display: flex;
+    font-weight: 400;
+}
+
+.seccion-textos h3{
+    text-align: center;
+    padding-bottom: 25px;
+    padding-top: 80px;
+    font-size: 30px;
+    color: #4591ce;
+    display: block;
+}
+
+.seccion-textos{
+    padding-left: 280px;
+    padding-right: 280px;
+    text-align: justify;
+}
+
+.imag-programas{
+    width: 50%;
+    margin-left: 25%;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 150px;
+}
+
+/* Galeria de proyectos */
+.titulo-c1{
+    color: #000000;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.conteiner-1{
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    top: 5px;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 80px;
+    z-index: 1000;
+}
+
+.conteiner-1 .car-1{
+    width: 200px;
+    height: 350px;
+    overflow: hidden;
+    margin: 40px;
+    text-align: center;
+    background-color: #d3e3f4;
+    border-radius: 15px 15px 0 0;
+}
+
+.conteiner-1 .card-1 > img{
+    width: 130px;
+    height: 130px;
+    border-radius: 10px 10px 0 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.conteiner-1 .card-1:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.titulo-c2{
+    color: #000000;
+    text-align: center;
+    margin-top: 10px;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    background-color: #76adde;
+    border-radius: 35px;
+    margin-left: -10px;
+    margin-top: 13px;
+    transition: background 0.3s; color: 0.3s;
+    cursor: pointer;
+    display: inline-block;
+}
+ul{
+    list-style-type: none;
+}
+
+.conteiner-2{
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    top: 5px;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 80px;
+    z-index: 1000;
+}
+
+.conteiner-2 .car-2{
+    width: 200px;
+    height: 350px;
+    overflow: hidden;
+    margin: 40px;
+    text-align: center;
+    background-color: #d3e3f4;
+    border-radius: 15px 15px 0 0;
+}
+
+.conteiner-2 .card-2 > img{
+    width: 145px;
+    height: 145px;
+    border-radius: 10px 10px 0 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.conteiner-2 .card-2:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.titulo-c3{
+    color: #000000;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.conteiner-3{
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    top: 5px;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 80px;
+    z-index: 1000;
+}
+
+.conteiner-3 .car-3{
+    width: 200px;
+    height: 350px;
+    overflow: hidden;
+    margin: 40px;
+    text-align: center;
+    background-color: #d3e3f4;
+    border-radius: 15px 15px 0 0;
+}
+
+.conteiner-3 .card-3 > img{
+    width: 130px;
+    height: 130px;
+    border-radius: 10px 10px 0 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.conteiner-3 .card-3:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+
+/* Servicios */
+.titulo-serv h3{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.conteiner{
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    top: 5px;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 80px;
+    z-index: 1000;
+}
+
+.conteiner .card{
+    width: 250px;
+    height: 400px;
+    overflow: hidden;
+    margin: 10px;
+    text-align: center;
+    background-color: #d3e3f4
+    border-radius: 15px 15px 0 0;
+}
+
+.conteiner .card > img{
+    width: 170px;
+    height: 170px;
+    border-radius: 10px 10px 0 0;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.conteiner .card:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.conteiner .card h2{
+    font-size: 10px;
+    top: 10px;
+    color: #000;
+    border-bottom: 1px solid ;
+}
+
+.conteiner .card p{
+    padding: 10px;
+    text-align: justify-all;
+    font-size: 15px;
+}
+
+/* Galeria - imagenes */
+.linea{
+    border-top: 5px solido #76adde;
+}
+
+.contenedor-imagenes{
+    display: flex;
+    width: 75%;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 3px;
+    margin-bottom: 60px;
+}
+
+.contenedor-imagenes .imagen{
+    width: 32%;
+    position: relative;
+    height: 350px;
+    margin-bottom: 5px;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .75);
+}
+
+.imagen img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 118, 192, 0.781);
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    transition: .5s ease;
+}
+
+.overlay h2{
+    color: #d3e3f4;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    font-weight: 500;
+}
+
+.imagen:hover .overlay{
+    height: 100%;
+    cursor: pointer;
+}
+
+/*contacto*/
+.form-contacto{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
+    margin-top: 90px;
+}
+.form-contacto h3{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 25px;
+    color: #2976b9;
+    margin-left: 30px;
+}
+.form-contacto p{
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    margin: 30px;
+}
+.form-contacto a{
+    font-size: 14px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 12px;
+    color: black;
+    font-weight: 500;
+    margin-left: 30px;
+}
+.form-contacto a i{
+    color: black;
+    margin-right: 10px;
+}
+.form-contacto form .campo, textarea{
+    width: 430px;
+    padding: 15px 10px;
+    font-size: 15px;
+    border: 1px solid #2a72ba;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0px;
+    background-color: #aed0ef;
+    display: flex;
+    margin-right: 30px;
+}
+.form-contacto form textarea{
+    max-width: 430px;
+    min-width: 430px;
+    min-height: 140px;
+    max-height: 150px;
+    background-color: #aed0ef;
+    display: flex;
+    margin-right: 30px;
+}
+.form-contacto .btn-enviar{
+    padding: 15px;
+    font-size: 15px;
+    border: none;
+    outline: 0px;
+    background: #2976b9;
+    color: #D4E4F4;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.form-contacto .btn-enviar{
+    background: #2a72ba;
+}
+
+/* footer */
+footer{
+    background-color: #76acdd;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    padding: 40px 0;
+}
+
+.redes-sociales a{
+    font-size: 45px;
+    color: #000;
+    margin: 0 10px;
+    
+}
+
+/*media queris*/
+@media screen and (max-width:1000px) {
+    .contenedor-imagenes{
+        width: 95%;
+    }
+
+    /*inicio*/
+    .head .marca-p{
+        left: 20%;
+        margin: 20px;
+    }
+    .head .txt-marca2 h4{
+        padding-bottom: 80px;
+    }
+    
+}
+
+@media screen and (max-width:830px) {
+    .logo_a{
+        left: 80px;
+    }
+    .titulo{
+        color: #000;
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 80px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        background-color: #76adde;
+    }
+    /*inicio*/
+    .head .marca-p{
+        align-items: center;
+        left: 24%;
+        margin: 20px;
+        top: 25%;
+    }
+    .head .texto-marca h1{
+        font-size: 20px;
+    }
+    .head .texto-marca h2{
+        font-size: 28px;
+    }
+    .head .txt-marca2 h3{
+        font-size: 14;
+    }
+    .head .txt-marca2 h4{
+        font-size: 12px;
+        margin-bottom: 50px;
+    }
+    /* Quien soy yo */
+.imagen-yop{
+    width: 30%;
+    position: absolute;
+    top: 145%;
+    left: -10px;
+}
+
+.parrafo-uno h3{
+    position: static;
+    text-align: left;
+    padding-left: 52%;
+    padding-top: 10%;
+    font-size: 30px;
+    margin-top: 30px;
+    color: #4591ce;
+    margin-right: 35px;
+}
+
+.texto-p-uno{
+    position: static;
+    font-size: 14px;
+    top: 900px;
+    text-align: left;
+    padding-left: 52%;
+    margin-right: 10px;
+    display: flex;
+    font-weight: 400;
+    padding-bottom: 2px;
+}
+
+
+.seccion-textos{
+    padding-left: 120px;
+    padding-right: 120px;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.imag-programas{
+    width: 50%;
+    margin-left: 25%;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 150px;
+}
+.contenedor-imagenes{
+        width: 90%;
+    }
+    .contenedor-imagenes .imagen{
+        width: 48%;
+    }
+/*contacto*/
+.form-contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.form-contacto h3{
+    text-align: center;
+    margin-left: 0px;
+}
+.form-contacto p{
+    text-align: center;
+}
+.form-contacto a{
+    margin-left: 0px;
+    text-align: center;
+}
+.form-contacto form .campo, textarea{
+    width: 400px;
+    margin-left: 20px;
+}
+
+.form-contacto form textarea{
+    max-width: 400px;
+    min-width: 400px;
+    min-height: 140px;
+    max-height: 150px;
+    background-color: #aed0ef;
+    display: flex;
+    margin-right: 0px;
+}
+.caja-contacto{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+/*menu desplegable*/
+.checkbtn{
+    display: block;
+}
+.menu-navegacion ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: #2a72ba;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+}
+.menu-navegacion ul li{
+    display: flex;
+    margin: 50px 0;
+    line-height: 30px;
+}
+.menu-navegacion ul li > a{
+    text-decoration: none;
+    font-size: 12px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: none;
+    border-radius: 0;
+    margin-right: 0;
+    font-size: 0;
+}
+.menu-navegacion ul li:last-child{
+    background: none;
+}
+#check:checked ~ ul{
+    left: 0;
+}
+}
+
+@media screen and (max-width:560px) {
+    
+    .contenedor-imagenes{
+        width: 90%;
+    }
+    .contenedor-imagenes .imagen{
+        width: 70%;
+    }
+    /*inicio*/
+    .logo_a{
+        left: 60px;
+    }
+    .head .marca-p{
+        left: 5%;
+        margin: 20px;
+        top: 25%;
+    }
+    .head .texto-marca h1{
+        font-size: 20px;
+    }
+    .head .texto-marca h2{
+        font-size: 20px;
+    }
+    .head .txt-marca2 h3{
+        font-size: 9;
+    }
+    .head .txt-marca2 h4{
+        font-size: 12px;
+        margin-bottom: 50px;
+    }
+    /* Quien soy yo */
+.imagen-yop{
+    width: 30%;
+    position: absolute;
+    top: 145%;
+    display:inline-block;
+    margin-bottom: -45px;
+}
+.parrafo-uno h3{
+    position: static;
+    text-align: left;
+    padding-left: 52%;
+    font-size: 25px;
+    margin-top: 30px;
+    color: #4591ce;
+    margin-right: 15px;
+}
+.texto-p-uno{
+    position: static;
+    font-size: 12px;
+    top: 900px;
+    text-align: left;
+    padding-left: 52%;
+    margin-right: 10px;
+    display: flex;
+    font-weight: 400;
+}
+.seccion-textos{
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 12px;
+    text-align: justify;
+}
+.seccion-textos h3{
+    text-align: center;
+    padding-bottom: 25px;
+    padding-top: 50px;
+    font-size: 30px;
+    color: #4591ce;
+    display: block;
+}
+/*contacto*/
+.form-contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0px;
+}
+.form-contacto h3{
+    text-align: center;
+    margin-left: 0px;
+}
+.form-contacto p{
+    text-align: center;
+    margin: 0px;
+}
+.form-contacto a{
+    margin-left: 0px;
+    text-align: center;
+    margin-left: 0px;
+}
+.form-contacto form .campo, textarea{
+    width: 330px;
+    margin-left: 30px;
+}
+
+.form-contacto form textarea{
+    max-width: 330px;
+    min-width: 330px;
+    min-height: 140px;
+    max-height: 150px;
+    background-color: #aed0ef;
+    display: flex;
+    margin-right: 0px;
+}
+.caja-contacto{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+}
+
